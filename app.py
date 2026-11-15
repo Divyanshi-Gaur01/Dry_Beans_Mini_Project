@@ -11,7 +11,7 @@ if not os.path.exists("bean_model.pkl"):
 # Load model
 model = joblib.load("bean_model.pkl")
 
-# Load label encoder
+# Load encoder
 label_encoder = joblib.load("label_encoder.pkl")
 
 st.title("Dry Bean Classification App")
